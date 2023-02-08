@@ -20,27 +20,27 @@ How to running project on local machine.
 
 The app will be available at [http://localhost:5000](http://localhost:5000).
 
-### Running tests
-
-- python -m unittest tests/test.py
-
 ### Routes
 
 #### Skill Routes
 
-- `GET /skills`: Retrieve a list of all skills
-- `GET /skills/<skill_id>`: Retrieve a specific skill by ID
-- `POST /skills`: Add a new skill
-- `PUT /skills/<skill_id>`: Update a specific skill by ID
-- `DELETE /skills/<skill_id>`: Delete a specific skill by ID
+- `GET /skill`: Retrieve a list of all skills
+- `GET /skill/<skill_id>`: Retrieve a specific skill by ID
+- `POST /skill`: Add a new skill
+- `PUT /skill/<skill_id>`: Update a specific skill by ID
+- `DELETE /skill/<skill_id>`: Delete a specific skill by ID
 
 #### User Routes
 
 - `GET /users`: Retrieve a list of all users
-- `GET /users/<user_id>`: Retrieve a specific user by ID
-- `POST /users`: Add a new user
-- `PUT /users/<user_id>`: Update a specific user by ID
-- `DELETE /users/<user_id>`: Delete a specific user by ID
+- `POST /users`: Create bulk users
+- `DELETE /users/`: Delete all users
+- `GET /user/<user_id>`: Retrieve a specific user by ID
+- `POST /user`: Add a new user
+- `PUT /user/<user_id>`: Update a specific user by ID
+- `DELETE /user/<user_id>`: Delete a specific user by ID
+- `POST /user/<user_id>/skill`: Add Skill to a specific User
+- `DELETE /user/<user_id>/skill/<skill_id>`: Delete skill from a User
 
 ## Change Log
 
