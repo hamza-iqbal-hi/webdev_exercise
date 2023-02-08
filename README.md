@@ -1,4 +1,4 @@
-# WorkGenius Web Developer test exercise
+# Web Developer test exercise
 
 ## Exercise
 
@@ -59,10 +59,3 @@ npm install
 npm start
 ```
 
-## Share results
-
-A github link (ex: you can fork current repo) with accomplished exercise expected to be sent via email to ivan@workgenius.com
-
-> if github link is not an option for you, a zip archive of the project can be sent
-
-Good luck ;) 
