@@ -1,0 +1,11 @@
+.skills-dropdown {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.skills-dropdown select {
+  width: 200px;
+  margin-right: 10px;
+}
+

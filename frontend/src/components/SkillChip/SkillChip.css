@@ -1,0 +1,25 @@
+.chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  font-size: 12px;
+  padding: 4px 2px 4px 8px;
+  white-space: nowrap;
+}
+
+.delete-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #ccc;
+  outline: none;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.delete-button:hover {
+  color: black;
+  font-weight: bold;
+}
